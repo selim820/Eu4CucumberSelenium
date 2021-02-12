@@ -9,6 +9,7 @@ com\vytrack\utilities\ConfigurationReader.class
 com\vytrack\pages\CalendarEventsPage.class
 com\vytrack\pages\DashBoardPage.class
 com\vytrack\utilities\BrowserUtils$1.class
+com\vytrack\runners\FailedTestRunner.class
 com\vytrack\utilities\Driver.class
 com\vytrack\runners\CukesRunner.class
 com\vytrack\step_definitions\ContactsPageStepDefs.class

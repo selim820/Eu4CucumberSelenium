@@ -1,7 +1,7 @@
 
 @navigate
   Feature: navigation menu
-    @smoke
+
     Scenario: Navigate to fleet->vehicles page
       Given the user is on the login page
       And the user enters the sales manager information

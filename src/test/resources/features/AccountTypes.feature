@@ -1,5 +1,5 @@
 Feature: Account types
-@wip
+@wip @smoke
   Scenario: Driver user
     Given the user logged in as "driver"
     When the user navigates to  "Activities" "Calendar Events"
@@ -11,7 +11,7 @@ Feature: Account types
     #Then the Page Title contains "Accounts - Customers"
   #to delibrately make scenario fail
   Then the Page Title contains "Accounts-CustomerS"
-@wip
+@wip @smoke
   Scenario: Store manager user
     Given the user logged in as "store manager"
     When the user navigates to  "Customers" "Contacts"
