@@ -177,8 +177,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]\u003e but was:\u003c[Loading...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login(LoginStepDefs.java:51)\r\n\tat ✽.the user should be able to login(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/login.feature:11)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
@@ -240,8 +242,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]\u003e but was:\u003c[Loading...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login(LoginStepDefs.java:51)\r\n\tat ✽.the user should be able to login(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/login.feature:17)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded1.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
@@ -300,8 +304,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard]\u003e but was:\u003c[Loading...]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login(LoginStepDefs.java:51)\r\n\tat ✽.the user should be able to login(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/login.feature:23)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded2.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
