@@ -47,7 +47,7 @@ Feature: Contacts page
     Then the user should be able to login
 
 
-  Scenario Outline:  login as a givern user
+  Scenario Outline:  login as a given user
     Given the user is on the login page
 
     When the user logs in following credentials
