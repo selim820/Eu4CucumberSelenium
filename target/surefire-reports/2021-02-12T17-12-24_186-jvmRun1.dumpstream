@@ -1,0 +1,217 @@
+# Created at 2021-02-12T17:12:25.695
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2021-02-12T17:12:26.220
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium\005Ctarget\005Ctest-classes;C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium\005Ctarget\005Cclasses;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C4.2.2\005Cwebdrivermanager-4.2.2.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.30\005Cslf4j-api-1.7.30.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.8.0\005Ccommons-io-2.8.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.6\005Cgson-2.8.6.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.11\005Ccommons-lang3-3.11.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0.1\005Chttpclient5-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0.1\005Chttpcore5-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5-h2\005C5.0.1\005Chttpcore5-h2-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.13\005Ccommons-codec-1.13.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Crauschig\005Cjarchivelib\005C1.1.0\005Cjarchivelib-1.1.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.20\005Ccommons-compress-1.20.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.13.1\005Cjsoup-1.13.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C5.7.0\005Ccucumber-java-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C5.7.0\005Ccucumber-core-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C5.7.0\005Ccucumber-gherkin-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-vintage\005C5.7.0\005Ccucumber-gherkin-vintage-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C2.0.4\005Ctag-expressions-2.0.4.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C8.3.1\005Ccucumber-expressions-8.3.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.3.1\005Cdatatable-3.3.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C5.7.0\005Ccucumber-plugin-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C5.7.0\005Cdocstring-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C5.7.0\005Ccucumber-junit-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;
+
+
+# Created at 2021-02-12T17:12:26.223
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2021-02-12T17:12:26.224
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2021-02-12T17:12:26.226
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2021-02-12T17:12:26.227
+Unexpected IOException: I,1,java.vendor.url,https://java.oracle.com/
+
+
+# Created at 2021-02-12T17:12:26.228
+Unexpected IOException: I,1,user.timezone,Europe/Istanbul
+
+
+# Created at 2021-02-12T17:12:26.229
+Unexpected IOException: I,1,user.country.format,US
+
+
+# Created at 2021-02-12T17:12:26.230
+Unexpected IOException: I,1,java.vm.specification.version,13
+
+
+# Created at 2021-02-12T17:12:26.231
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created at 2021-02-12T17:12:26.232
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2021-02-12T17:12:26.233
+Unexpected IOException: I,1,user.country,TR
+
+
+# Created at 2021-02-12T17:12:26.234
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk-13.0.2\005Cbin
+
+
+# Created at 2021-02-12T17:12:26.235
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CTemp\005Csurefire10696499122760189129\005Csurefirebooter3359377451056664584.jar C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CTemp\005Csurefire10696499122760189129 2021-02-12T17-12-24_186-jvmRun1 surefire3498634634286710137tmp surefire_013711908246419581990tmp
+
+
+# Created at 2021-02-12T17:12:26.236
+Unexpected IOException: I,1,jdk.debug,release
+
+
+# Created at 2021-02-12T17:12:26.237
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium\005Ctarget\005Ctest-classes;C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium\005Ctarget\005Cclasses;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C4.2.2\005Cwebdrivermanager-4.2.2.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.30\005Cslf4j-api-1.7.30.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.8.0\005Ccommons-io-2.8.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.6\005Cgson-2.8.6.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.11\005Ccommons-lang3-3.11.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0.1\005Chttpclient5-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0.1\005Chttpcore5-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5-h2\005C5.0.1\005Chttpcore5-h2-5.0.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.13\005Ccommons-codec-1.13.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Crauschig\005Cjarchivelib\005C1.1.0\005Cjarchivelib-1.1.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.20\005Ccommons-compress-1.20.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.13.1\005Cjsoup-1.13.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C5.7.0\005Ccucumber-java-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C5.7.0\005Ccucumber-core-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C5.7.0\005Ccucumber-gherkin-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-vintage\005C5.7.0\005Ccucumber-gherkin-vintage-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C2.0.4\005Ctag-expressions-2.0.4.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C8.3.1\005Ccucumber-expressions-8.3.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.3.1\005Cdatatable-3.3.1.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C5.7.0\005Ccucumber-plugin-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C5.7.0\005Cdocstring-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C5.7.0\005Ccucumber-junit-5.7.0.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005CLenovo\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;
+
+
+# Created at 2021-02-12T17:12:26.240
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2021-02-12T17:12:26.241
+Unexpected IOException: I,1,user.home,C:\005CUsers\005CLenovo
+
+
+# Created at 2021-02-12T17:12:26.242
+Unexpected IOException: I,1,user.language,tr
+
+
+# Created at 2021-02-12T17:12:26.243
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2021-02-12T17:12:26.244
+Unexpected IOException: I,1,java.version.date,2020-01-14
+
+
+# Created at 2021-02-12T17:12:26.245
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk-13.0.2
+
+
+# Created at 2021-02-12T17:12:26.245
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2021-02-12T17:12:26.246
+Unexpected IOException: I,1,basedir,C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium
+
+
+# Created at 2021-02-12T17:12:26.247
+Unexpected IOException: I,1,java.vm.compressedOopsMode,32-bit
+
+
+# Created at 2021-02-12T17:12:26.249
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2021-02-12T17:12:26.249
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2021-02-12T17:12:26.250
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2021-02-12T17:12:26.251
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CTemp\005Csurefire10696499122760189129\005Csurefirebooter3359377451056664584.jar
+
+
+# Created at 2021-02-12T17:12:26.252
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2021-02-12T17:12:26.253
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2021-02-12T17:12:26.254
+Unexpected IOException: I,1,java.runtime.version,13.0.2+8
+
+
+# Created at 2021-02-12T17:12:26.255
+Unexpected IOException: I,1,user.name,Lenovo
+
+
+# Created at 2021-02-12T17:12:26.256
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2021-02-12T17:12:26.257
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2021-02-12T17:12:26.257
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2021-02-12T17:12:26.258
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created at 2021-02-12T17:12:26.259
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2021-02-12T17:12:26.259
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005CLenovo\005C.m2\005Crepository
+
+
+# Created at 2021-02-12T17:12:26.260
+Unexpected IOException: I,1,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created at 2021-02-12T17:12:26.261
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2021-02-12T17:12:26.262
+Unexpected IOException: I,1,java.version,13.0.2
+
+
+# Created at 2021-02-12T17:12:26.262
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005CLenovo\005CIdeaProjects\005CEu4CucumberSelenium
+
+
+# Created at 2021-02-12T17:12:26.263
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2021-02-12T17:12:26.264
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2021-02-12T17:12:26.264
+Unexpected IOException: I,1,user.language.format,en
+
+
+# Created at 2021-02-12T17:12:26.265
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2021-02-12T17:12:26.266
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk-13.0.2\005Cbin;C:\005CWindows\005CSun\005CJava\005Cbin;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CJava\005Cjdk-13.0.2\005Cbin;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005Capache-maven-3.6.3\005Cbin;C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CProgram Files\005CJava\005Cjdk-13.0.2\005Cbin;C:\005CUsers\005CLenovo\005CAppData\005CLocal\005Catom\005Cbin;C:\005CUsers\005CLenovo\005CAppData\005CLocal\005CGitHubDesktop\005Cbin;.
+
+
+# Created at 2021-02-12T17:12:26.266
+Unexpected IOException: I,1,java.vm.info,mixed mode\002C sharing
+
+
+# Created at 2021-02-12T17:12:26.267
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2021-02-12T17:12:26.268
+Unexpected IOException: I,1,java.vm.version,13.0.2+8
+
+
+# Created at 2021-02-12T17:12:26.268
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2021-02-12T17:12:26.270
+Unexpected IOException: I,1,java.class.version,57.0
+
+

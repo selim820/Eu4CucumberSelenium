@@ -45,8 +45,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(NavigationMenuStepDefs.java:106)\r\n\tat ✽.the Page Title contains \"Calendar Events\"(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/AccountTypes.feature:6)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
@@ -79,23 +81,4 @@ formatter.step({
 });
 formatter.match({
   "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the Page Title contains \"Accounts-CustomerS\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(java.lang.String)"
-});
-formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(NavigationMenuStepDefs.java:106)\r\n\tat ✽.the Page Title contains \"Accounts-CustomerS\"(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/AccountTypes.feature:13)\r\n",
-  "status": "failed"
-});
-formatter.embedding("image/png", "embedded0.png", "screenshot");
-formatter.after({
-  "status": "passed"
-});
 });
