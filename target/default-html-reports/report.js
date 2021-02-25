@@ -45,10 +45,8 @@ formatter.match({
   "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.vytrack.step_definitions.NavigationMenuStepDefs.the_Page_Title_contains(NavigationMenuStepDefs.java:106)\r\n\tat ✽.the Page Title contains \"Calendar Events\"(file:///C:/Users/Lenovo/IdeaProjects/Eu4CucumberSelenium/src/test/resources/features/AccountTypes.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
