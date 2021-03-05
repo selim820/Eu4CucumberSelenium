@@ -24,6 +24,7 @@ public class LoginStepDefs {
         //but we can user it Driver.get() as we are dealing with the same object everywhere
 
        Driver.get().get(url);
+       Driver.get().manage().window().maximize();
 
     }
 

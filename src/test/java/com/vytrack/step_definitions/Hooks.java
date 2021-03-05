@@ -1,6 +1,7 @@
 package com.vytrack.step_definitions;
 
 
+import com.vytrack.utilities.DbUtils;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -30,10 +31,13 @@ public class Hooks {
     @Before("@db")
     public void setupDb() {
         System.out.println("\t connecting to database");
+        DbUtils.createConnection();
     }
     @After("@db")
     public void closeDb(){
         System.out.println("\t disconnecting to database");
+        DbUtils.destroy();
+
     }
 }
 

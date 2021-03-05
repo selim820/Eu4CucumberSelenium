@@ -58,9 +58,35 @@ Feature: Contacts page
       | lastname  | <lastname>  |
     Then the user should be able to login
     Examples:
-      | user           | firstname | lastname  |
+      | user           | firstname | lastname |
     #  | user10         | Brenden   | Schneider | youcan comment one line
-      | storemanager85 | Stephant  | Haley     |
+      | storemanager85 | Stephant  | Haley    |
+
+#@wip @db
+  Scenario: Contacts email should be same with  database email
+    Given the user logged in as "sales manager"
+    And the user navigates to  "Customers" "Contacts"
+    When the user clicks clicks the "mbrackstone9@example.com" from Contacts
+    Then the information should be same with data
+
+
+  @wip @db
+  Scenario: Contacts email should be same with  database email
+    Given the user logged in as "sales manager"
+    And the user navigates to  "Customers" "Contacts"
+    When the user clicks clicks the "mike.jorden@hotmail.com" from Contacts
+    Then the information for "mike.jorden@hotmail.com" should be same with data
+
+
+  Scenario Outline: Contacts email should be same with  database email
+    Given the user logged in as "sales manager"
+    And the user navigates to  "Customers" "Contacts"
+    When the user clicks clicks the "<email>" from Contacts
+    Then the information for "<email>" should be same with data
+    Examples:
+      | email                    |
+      | mike.jorden@hotmail.com  |
+      | mbrackstone9@example.com |
 
 
 

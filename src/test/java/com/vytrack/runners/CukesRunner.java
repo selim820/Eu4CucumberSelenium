@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  // tags = "@wip" this was for navigation menu feature driver
    //     tags="@login"//to run all scenarios for feaute login
 //tags="@wip" //this is for LoginWithParameters
-        tags="@smoke" //this is for Contacts.feature
+        tags="@wip" //this is for Contacts.feature
 
 )
 

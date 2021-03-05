@@ -67,7 +67,7 @@ public abstract class  BasePage {
 
     public void waitUntilLoaderScreenAppear() {
         try{
-            WebDriverWait wait=new WebDriverWait(Driver.get(),5);
+            WebDriverWait wait=new WebDriverWait(Driver.get(),1);
                     wait.until(ExpectedConditions.visibilityOf(loaderMask));
         } catch (Exception e) {
             e.printStackTrace();
