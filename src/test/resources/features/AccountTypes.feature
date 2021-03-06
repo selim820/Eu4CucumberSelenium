@@ -3,14 +3,15 @@ Feature: Account types
   Scenario: Driver user
     Given the user logged in as "driver"
     When the user navigates to  "Activities" "Calendar Events"
-    Then the Page Title contains "Calendar Events"
+    #Then the Page Title contains "Calendar Events"
+  Then the Page Title contains "Calendar EventS"
 @wip
   Scenario: Sales manager user
     Given the user logged in as "sales manager"
     When the user navigates to  "Customers" "Accounts"
     #Then the Page Title contains "Accounts - Customers"
   #to delibrately make scenario fail
-  Then the Page Title contains "Accounts-CustomerS"
+  Then the Page Title contains "Accounts-Customers"
 
   Scenario: Store manager user
     Given the user logged in as "store manager"
